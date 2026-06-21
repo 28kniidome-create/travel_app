@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.title("旅行アプリ")
+st.title("旅程表")
 
 url = "https://docs.google.com/spreadsheets/d/1T4VP9sBIsyoVQl6saTpQLxgtR7GC_7w1G21tddQjDVM/export?format=csv&gid=0"
 
