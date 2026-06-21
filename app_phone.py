@@ -11,7 +11,7 @@ st.title("旅程表アプリ作ってみたよ")
 trip_name = "九州旅行"
 st.header(trip_name)
 
-url = "https://docs.google.com/spreadsheets/d/1oR7eFEuvMO1-pY6QGDQojiuYBRYywr0xB1UuYPaX-SY/export?format=csv&gid=0"
+url = "https://docs.google.com/spreadsheets/d/1oR7eFEuvMO1-pY6QGDQojiuYBRYywr0xB1UuYPaX-SY/gviz/tq?tqx=out:csv&gid=0"
 
 df = pd.read_csv(url)
 
