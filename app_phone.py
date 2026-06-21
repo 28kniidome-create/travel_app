@@ -1,7 +1,12 @@
 import streamlit as st
 import pandas as pd
 
-st.title("旅程表")
+st.set_page_config(
+    page_title="旅行アプリ",
+    layout="centered"
+)
+
+st.title("旅程表アプリ作ってみたよ")
 
 trip_name = "九州旅行"
 st.header(trip_name)
