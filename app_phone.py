@@ -6,15 +6,6 @@ st.title("旅程表")
 trip_name = "九州旅行"
 st.header(trip_name)
 
-st.markdown("""
-<style>
-div[data-testid="stExpander"] summary {
-    font-size: 20px;
-    font-weight: bold;
-}
-</style>
-""", unsafe_allow_html=True)
-
 url = "https://docs.google.com/spreadsheets/d/1T4VP9sBIsyoVQl6saTpQLxgtR7GC_7w1G21tddQjDVM/export?format=csv&gid=0"
 
 df = pd.read_csv(url)
