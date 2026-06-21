@@ -6,7 +6,7 @@ st.set_page_config(
     layout="centered"
 )
 
-st.title("旅程表アプリ作ってみたよ")
+st.title("パルへ 旅程表アプリ作ってみたよ")
 
 trip_name = "九州旅行"
 st.header(trip_name)
