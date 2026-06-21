@@ -55,5 +55,5 @@ total_cost = int(df["金額"].sum())
 
 st.metric(
     label="旅行予算合計",
-    value=f"¥{total_cost:,}"
+    value=f"¥{total_cost}"
 )
