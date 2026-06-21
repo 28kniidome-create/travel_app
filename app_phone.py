@@ -51,7 +51,7 @@ for date in df["日付"].unique():
 
                 st.write("")
 
-total_cost = int["金額"].sum()
+total_cost = int(df["金額"].sum())
 
 st.metric(
     label="旅行予算合計",
