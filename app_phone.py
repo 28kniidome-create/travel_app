@@ -8,22 +8,8 @@ st.set_page_config(
 
 st.markdown("""
 <style>
-/* 画面の余白を少し広げて見やすくする */
-.block-container {
-    padding-top: 2rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-/* expander（日付部分）を見やすく */
-div[data-testid="stExpander"] summary {
-    font-size: 18px;
-    font-weight: 600;
-}
-
-/* 全体の文字を少し柔らかく */
-html, body, [class*="css"] {
-    font-family: sans-serif;
+body {
+    background-color: red;
 }
 </style>
 """, unsafe_allow_html=True)
