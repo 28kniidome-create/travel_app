@@ -36,7 +36,7 @@ for date in df["日付"].unique():
 
                     button_text = "🔗 開く"
 
-                    if "google" in row["URL"].lower():
+                    if "maps.app" in row["URL"].lower():
                         button_text = "🗺️ 地図を見る"
 
                     st.link_button(button_text, row["URL"])
