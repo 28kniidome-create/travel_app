@@ -6,14 +6,6 @@ st.set_page_config(
     layout="centered"
 )
 
-st.markdown("""
-<style>
-body {
-    background-color: red;
-}
-</style>
-""", unsafe_allow_html=True)
-
 st.title("旅程表アプリ作ってみたよ")
 
 trip_name = "九州旅行"
