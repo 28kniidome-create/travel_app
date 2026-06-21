@@ -42,10 +42,10 @@ for date in df["日付"].unique():
 
                 if pd.notna(row["URL"]):
 
-                    button_text = "🔗 開く"
+                    button_text = "URL"
 
                     if "maps.app" in row["URL"].lower():
-                        button_text = "🗺️ 地図を見る"
+                        button_text = "🗺️ Google マップ"
 
                     st.link_button(button_text, row["URL"])
 
