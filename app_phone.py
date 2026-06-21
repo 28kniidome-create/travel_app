@@ -6,7 +6,7 @@ st.set_page_config(
     layout="centered"
 )
 
-st.title("パルへ 旅程表アプリ作ってみたよ")
+st.title("旅程表アプリ")
 
 trip_name = "九州旅行"
 st.header(trip_name)
@@ -51,7 +51,7 @@ for date in df["日付"].unique():
 
                 st.write("")
 
-total_cost = df["金額"].sum()
+total_cost = int["金額"].sum()
 
 st.metric(
     label="旅行予算合計",
